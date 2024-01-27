@@ -119,7 +119,19 @@ My personal Selenium IDE notes.
 <!--- ####### START - COMPARE ####### --->
 ## COMPARE 
 
-COMPARE text
+- ### IF
+
+    #### includes
+    Example of how to use the ***includes JS*** in an if.
+
+    ```js
+    ${text}.includes("Container Size:")
+    ```
+    <!-- //TODO: Add image with example -->
+    ![IF includes](resources/compare/if_includes.png)
+
+
+
 
 <!--- ####### END - COMPARE ####### --->
 
