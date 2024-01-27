@@ -26,3 +26,46 @@ My personal Selenium IDE notes.
 
 
 
+<!--- ####### START - VALIDATIONS ####### --->
+## VALIDATIONS 
+
+### Number 
+
+-  #### Range
+
+### Date
+- #### Date from today
+
+- #### Formats
+
+<!--- ####### END - VALIDATIONS ####### --->
+
+
+<!--- ####### START - REGEX ####### --->
+## REGEX 
+
+REGEX text
+
+
+<!--- ####### END - REGEX ####### --->
+
+
+<!--- ####### START - COMPARISON ####### --->
+## COMPARISON 
+
+COMPARISON text
+
+<!--- ####### END - COMPARISON ####### --->
+
+
+<!--- ####### START - LOOPS ####### --->
+## LOOPS 
+
+### TIMES
+### TIMES nested
+### DO...REPEAT IF nested
+### DO...REPEAT IF nested in TIMES
+loops text
+
+<!--- ####### END - LOOPS ####### --->
+
