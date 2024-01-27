@@ -33,6 +33,11 @@ My personal Selenium IDE notes.
 ### Number 
 
 -  #### Range
+    Validate that the given number is within the range.
+
+    ```js
+    return Number(${my_num}) > 0 && Number(${my_num}) < 123;
+    ```
 
 ### Date
 - #### Date from today
