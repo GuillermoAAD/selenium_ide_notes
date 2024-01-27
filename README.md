@@ -48,6 +48,13 @@ My personal Selenium IDE notes.
     ```
 
 - #### Formats
+    Examples to format the date in JS format
+
+    ```js
+    // Example: Jan/17/2024
+
+    return new Date(${my_date}.replace(/(\w+)\/(\d+)\/(\d+)/, '$1 $2, $3'));
+    ```
 
 <!--- ####### END - VALIDATIONS ####### --->
 
