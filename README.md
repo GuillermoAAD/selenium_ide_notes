@@ -16,7 +16,9 @@ My personal Selenium IDE notes.
     - [Date](#date)
         - [From today](#date-from-today)
         - [Formats](#formats)
-2. [REGEX](#regex)
+2. [RegEx](#regex)
+    - [How to use](#how-to-use)
+    - [Examples](#examples)
 3. [COMPARE](#compare)
 4. [LOOP](#loop)
     - [TIMES](#times)
@@ -69,9 +71,45 @@ My personal Selenium IDE notes.
 [⬆](#)
 
 <!--- ####### START - REGEX ####### --->
-## REGEX 
+## RegEx 
 
-REGEX text
+- ### How to use
+    Replace the script with the desired regular expression.
+
+    Example of how to use the ***RegEx Tester***.
+    <!-- //TODO: Add image with example -->
+    ![RegEx Tester](resources/regex/regex_tester.png)
+
+- ### Examples
+    <details>
+    <summary>Examples of RegEx and their valid strings.</summary>
+  
+    
+
+    ```js
+    // For: '$ 10 USD', '$ 3.50 USD', '$ 0.25 USD', '$ 12345.67 USD'
+
+    return /^\$ ([1-9]\d*|\d+\.\d+) USD$/g.test(${SAMPLE_TEXT})
+    ```
+
+    ```js
+    // For: '10 USD', '3.50 MXN', '1000 USD', '0.25 MXN', 'N/A'
+
+    return /^(([1-9]\d*|\d+\.\d+) (?:USD|MXN))?$|^N\/A$/g.test(${SAMPLE_TEXT});
+    ```
+
+    ```js
+    // For: '10', '3.50', '1000', '0.25', 'N/A'
+
+    return /^(([1-9]\d*|\d+\.\d+))?$|^N\/A$/g.test(${SAMPLE_TEXT});
+    ```
+
+    ```js
+    // For: ''
+
+    return ;
+    ```
+    </details>
 
 
 <!--- ####### END - REGEX ####### --->
