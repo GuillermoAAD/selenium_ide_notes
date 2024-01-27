@@ -41,6 +41,11 @@ My personal Selenium IDE notes.
 
 ### Date
 - #### Date from today
+    Validate that the given date is greater than or equal to the current date.
+
+    ```js
+    return ${my_date_formatted} >= ${today_date};
+    ```
 
 - #### Formats
 
