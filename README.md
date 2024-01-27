@@ -10,15 +10,15 @@ My personal Selenium IDE notes.
 
 <!--- ####### INDEX ####### --->
 **Index**
-1. [VALIDATIONS](#validations)
+1. [VALIDATE](#validate)
     - [Number](#number)
         - [Range](#range)
     - [Date](#date)
         - [From today](#date-from-today)
         - [Formats](#formats)
 2. [REGEX](#regex)
-3. [COMPARISON](#comparison)
-4. [LOOPS](#loops)
+3. [COMPARE](#compare)
+4. [LOOP](#loop)
     - [TIMES](#times)
     - [~~TIMES nested~~](#times-nested)
     - [DO...REPEAT IF nested](#dorepeat-if-nested)
@@ -27,8 +27,8 @@ My personal Selenium IDE notes.
 
 
 [⬆](#)
-<!--- ####### START - VALIDATIONS ####### --->
-## VALIDATIONS 
+<!--- ####### START - VALIDATE ####### --->
+## VALIDATE 
 
 ### Number 
 
@@ -41,7 +41,7 @@ My personal Selenium IDE notes.
 
     Example of how to use the ***number range*** validation.
     <!-- //TODO: Add image with example -->
-    ![Validate number range](resources/validations/number_range.png)
+    ![Validate number range](resources/validate/number_range.png)
 
 ### Date
 - #### From today
@@ -53,7 +53,7 @@ My personal Selenium IDE notes.
 
     Example of how to use the ***date from today*** validation.
     <!-- //TODO: Add image with example -->
-    ![Validate date from today](resources/validations/date_from_today.png)
+    ![Validate date from today](resources/validate/date_from_today.png)
 
 - #### Formats
     Examples to format the date in JS format
@@ -64,7 +64,7 @@ My personal Selenium IDE notes.
     return new Date(${my_date}.replace(/(\w+)\/(\d+)\/(\d+)/, '$1 $2, $3'));
     ```
 
-<!--- ####### END - VALIDATIONS ####### --->
+<!--- ####### END - VALIDATE ####### --->
 
 [⬆](#)
 
@@ -78,47 +78,47 @@ REGEX text
 
 [⬆](#)
 
-<!--- ####### START - COMPARISON ####### --->
-## COMPARISON 
+<!--- ####### START - COMPARE ####### --->
+## COMPARE 
 
-COMPARISON text
+COMPARE text
 
-<!--- ####### END - COMPARISON ####### --->
+<!--- ####### END - COMPARE ####### --->
 
 [⬆](#)
 
-<!--- ####### START - LOOPS ####### --->
-## LOOPS 
+<!--- ####### START - LOOP ####### --->
+## LOOP 
 
 <!--- --->
 - ### TIMES
     
     Example of how to use the ***times*** loop.
     <!-- //TODO: Add image with example -->
-    ![Times](resources/loops/times.pngg)
+    ![Times](resources/loop/times.pngg)
 
 <!--- --->
 - ### ~~TIMES nested~~
     
-    Example of how the ***times*** loop should be used. But there is a bug that does not allow the correct use of this functionality.
+    ~~Example of how the ***times*** loop should be used. But there is a bug that does not allow the correct use of this functionality.~~
 
     <!-- //TODO: Add image with example -->
-    ![Times nested](resources/loops/times_nested.png)
+    ~~![Times nested](resources/loop/times_nested.png)~~
 
 <!--- --->
 - ### DO...REPEAT IF nested
     Example of how to use the ***do...repeat if*** loop.
 
     <!-- //TODO: Add image with example -->
-    ![Do...repeat if](resources/loops/do_repeat_if.png)
+    ![Do...repeat if](resources/loop/do_repeat_if.png)
 
 <!--- --->
 - ### DO...REPEAT IF nested in TIMES
     
     Example of how to use the ***times*** loop.
     <!-- //TODO: Add image with example -->
-    ![Do...repeat if nested in times](resources/loops/do_repeat_if_nested_in_times.png)
+    ![Do...repeat if nested in times](resources/loop/do_repeat_if_nested_in_times.png)
 
-<!--- ####### END - LOOPS ####### --->
+<!--- ####### END - LOOP ####### --->
 
 [⬆](#)
