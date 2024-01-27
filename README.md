@@ -26,6 +26,7 @@ My personal Selenium IDE notes.
 
 
 
+[⬆](#)
 <!--- ####### START - VALIDATIONS ####### --->
 ## VALIDATIONS 
 
@@ -40,6 +41,7 @@ My personal Selenium IDE notes.
 
 <!--- ####### END - VALIDATIONS ####### --->
 
+[⬆](#)
 
 <!--- ####### START - REGEX ####### --->
 ## REGEX 
@@ -49,6 +51,7 @@ REGEX text
 
 <!--- ####### END - REGEX ####### --->
 
+[⬆](#)
 
 <!--- ####### START - COMPARISON ####### --->
 ## COMPARISON 
@@ -57,6 +60,7 @@ COMPARISON text
 
 <!--- ####### END - COMPARISON ####### --->
 
+[⬆](#)
 
 <!--- ####### START - LOOPS ####### --->
 ## LOOPS 
@@ -69,3 +73,4 @@ loops text
 
 <!--- ####### END - LOOPS ####### --->
 
+[⬆](#)
