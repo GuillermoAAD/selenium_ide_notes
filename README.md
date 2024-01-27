@@ -39,13 +39,21 @@ My personal Selenium IDE notes.
     return Number(${my_num}) > 0 && Number(${my_num}) < 123;
     ```
 
+    Example of how to use the ***number range*** validation.
+    <!-- //TODO: Add image with example -->
+    ![Validate number range](resources/validations/number_range.png)
+
 ### Date
-- #### Date from today
+- #### From today
     Validate that the given date is greater than or equal to the current date.
 
     ```js
     return ${my_date_formatted} >= ${today_date};
     ```
+
+    Example of how to use the ***date from today*** validation.
+    <!-- //TODO: Add image with example -->
+    ![Validate date from today](resources/validations/date_from_today.png)
 
 - #### Formats
     Examples to format the date in JS format
