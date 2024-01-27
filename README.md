@@ -20,7 +20,7 @@ My personal Selenium IDE notes.
 3. [COMPARISON](#comparison)
 4. [LOOPS](#loops)
     - [TIMES](#times)
-    - [TIMES nested](#times-nested)
+    - [~~TIMES nested~~](#times-nested)
     - [DO...REPEAT IF nested](#dorepeat-if-nested)
     - [DO...REPEAT IF nested in TIMES](#dorepeat-if-nested-in-times)
 
@@ -82,11 +82,34 @@ COMPARISON text
 <!--- ####### START - LOOPS ####### --->
 ## LOOPS 
 
-### TIMES
-### TIMES nested
-### DO...REPEAT IF nested
-### DO...REPEAT IF nested in TIMES
-loops text
+<!--- --->
+- ### TIMES
+    
+    Example of how to use the ***times*** loop.
+    <!-- //TODO: Add image with example -->
+    ![Times](resources/loops/times.pngg)
+
+<!--- --->
+- ### ~~TIMES nested~~
+    
+    Example of how the ***times*** loop should be used. But there is a bug that does not allow the correct use of this functionality.
+
+    <!-- //TODO: Add image with example -->
+    ![Times nested](resources/loops/times_nested.png)
+
+<!--- --->
+- ### DO...REPEAT IF nested
+    Example of how to use the ***do...repeat if*** loop.
+
+    <!-- //TODO: Add image with example -->
+    ![Do...repeat if](resources/loops/do_repeat_if.png)
+
+<!--- --->
+- ### DO...REPEAT IF nested in TIMES
+    
+    Example of how to use the ***times*** loop.
+    <!-- //TODO: Add image with example -->
+    ![Do...repeat if nested in times](resources/loops/do_repeat_if_nested_in_times.png)
 
 <!--- ####### END - LOOPS ####### --->
 
