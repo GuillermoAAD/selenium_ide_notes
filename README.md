@@ -25,6 +25,7 @@ My personal Selenium IDE notes.
     - [~~TIMES nested~~](#times-nested)
     - [DO...REPEAT IF nested](#dorepeat-if-nested)
     - [DO...REPEAT IF nested in TIMES](#dorepeat-if-nested-in-times)
+5. [RESOURCES](#resources)
 
 
 
@@ -170,5 +171,29 @@ My personal Selenium IDE notes.
     ![Do...repeat if nested in times](resources/loop/do_repeat_if_nested_in_times.png)
 
 <!--- ####### END - LOOP ####### --->
+
+[⬆](#)
+
+<!--- ####### START - RESOURCES ####### --->
+## RESOURCES 
+
+<!--- --->
+### Documentation
+- [Commands
+](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
+
+<!--- --->
+
+### Extensions
+- [Selenium IDE](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)
+
+- [CSS and XPath checker](https://chromewebstore.google.com/detail/css-and-xpath-checker/aoinfihhckpkkcpholfhmkeplbhddipe)
+
+- [TruePath](https://chromewebstore.google.com/detail/truepath/mgjhkhhbkkldiihlajcnlfchfcmhipmn)
+
+- [Relative XPath Helper](https://chromewebstore.google.com/detail/relative-xpath-helper/eanaofphbanknlngejejepmfomkjaiic)
+
+
+<!--- ####### END - RESOURCES ####### --->
 
 [⬆](#)
