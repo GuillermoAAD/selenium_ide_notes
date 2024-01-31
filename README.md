@@ -160,7 +160,7 @@ My personal Selenium IDE notes.
     Example of how to use the ***do...repeat if*** loop.
 
     <!-- //TODO: Add image with example -->
-    ![Do...repeat if](resources/loop/do_repeat_if.png)
+    ![Do...repeat if](resources/loop/do_repeat_if_nested.png)
 
 <!--- --->
 - ### DO...REPEAT IF nested in TIMES
