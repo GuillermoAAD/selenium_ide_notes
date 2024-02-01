@@ -146,7 +146,7 @@ My personal Selenium IDE notes.
     
     Example of how to use the ***times*** loop.
     <!-- //TODO: Add image with example -->
-    ![Times](resources/loop/times.pngg)
+    ![Times](resources/loop/times.png)
 
 <!--- --->
 - ### ~~TIMES nested~~
