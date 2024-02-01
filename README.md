@@ -193,6 +193,11 @@ My personal Selenium IDE notes.
 
 - [Relative XPath Helper](https://chromewebstore.google.com/detail/relative-xpath-helper/eanaofphbanknlngejejepmfomkjaiic)
 
+<!--- --->
+
+### Extensions
+- [RegExr](https://regexr.com/)
+
 
 <!--- ####### END - RESOURCES ####### --->
 
